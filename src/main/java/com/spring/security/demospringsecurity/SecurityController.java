@@ -13,7 +13,7 @@ public class SecurityController {
     @GetMapping("/user")
     public String getUser(){
               logger.log(Level.INFO, "getUser");
-        return "user";
+        return "<H1>Hello user</H1>"+"<br>"+"<H1>Welcome!!!</H1>";
     }
 
 
