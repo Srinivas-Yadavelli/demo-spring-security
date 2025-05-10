@@ -9,6 +9,9 @@ import java.util.logging.Logger;
 @RestController
 public class SecurityController {
 
+    //Consumer or Client present in external repository "springboot-practice"
+    //Client class is SpringBasicAuthAccessController.java
+
     Logger logger = Logger.getLogger(this.getClass().getName());
     @GetMapping("/user")
     public String getUser(){
